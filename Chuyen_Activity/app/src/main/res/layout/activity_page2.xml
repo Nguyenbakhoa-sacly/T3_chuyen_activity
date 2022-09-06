@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#3F51B5"
+        android:paddingTop="30dp"
+        android:text="Page 2"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_page2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Chuyển Lại Page1" />
+</LinearLayout>
