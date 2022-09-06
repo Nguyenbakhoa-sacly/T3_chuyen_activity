@@ -1,6 +1,5 @@
 package com.example.chuyen_activity;
 
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -8,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Page1_activity extends AppCompatActivity {
+public class Child_activity extends AppCompatActivity {
     Button btn_page1;
      View.OnClickListener myEvent = new View.OnClickListener() {
          @Override
          public void onClick(View view) {
-             Intent intent= new Intent(Page1_activity.this,Page2_activity.class);
+             Intent intent= new Intent(Child_activity.this, Main_activity.class);
              startActivity(intent);
          }
      };

@@ -4,28 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#03A9F4"
     android:orientation="vertical"
-    tools:context=".Page1_activity">
+    tools:context=".Child_activity">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        app:srcCompat="@drawable/icon_accoun" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="#2196F3"
-        android:paddingTop="30dp"
-        android:text="Page 1"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Bá Khoa"
         android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#000000"
-        android:textSize="30dp"
-        android:textStyle="bold" />
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MSV 2050531200215"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/btn_page1"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginTop="30dp"
         android:layout_gravity="center"
-        android:text="Chuyển Qua Page2" />
+        android:layout_marginTop="30dp"
+        android:text="Back to Page1" />
 </LinearLayout>

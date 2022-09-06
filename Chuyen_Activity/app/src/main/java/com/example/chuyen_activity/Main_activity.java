@@ -6,17 +6,14 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.pm.PermissionInfoCompat;
 
-import java.security.ProtectionDomain;
-
-public class Page2_activity extends AppCompatActivity {
+public class Main_activity extends AppCompatActivity {
     Button btn_page2;
 
     View.OnClickListener myEvent = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent(Page2_activity.this,Page1_activity.class);
+            Intent intent = new Intent(Main_activity.this, Child_activity.class);
             startActivity(intent);
         }
     };

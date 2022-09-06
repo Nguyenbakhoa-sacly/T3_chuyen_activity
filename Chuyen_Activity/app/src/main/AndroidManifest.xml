@@ -13,9 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chuyen_Activity"
         tools:targetApi="31">
-        <activity android:name="Page2_activity"/>
+        <activity android:name=".Child_activity"/>
         <activity
-            android:name=".Page1_activity"
+            android:name=".Main_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
